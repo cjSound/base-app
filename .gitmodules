@@ -1,0 +1,3 @@
+[submodule "src/app-modules"]
+	path = src/app-modules
+	url = https://gitee.com/cjSound/app-modules.git
