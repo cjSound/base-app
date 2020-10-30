@@ -1,0 +1,134 @@
+.addForm {
+  padding: 20rpx 18rpx;
+  .uni-list-cell::after {
+    left: 0;
+  }
+  .q-title {
+    font-size: 34rpx;
+    padding: 16rpx;
+  }
+  .q-item {
+    margin-top: 20rpx;
+    padding: 0 28rpx;
+    background: #ffffff;
+    border-radius: 20rpx;
+    .obit-textarea {
+      border: 1px solid #2fa9fc;
+      border-radius: 10rpx;
+      padding-left: 10rpx;
+      padding-top: 10rpx;
+      height: 190rpx;
+      width: 95%;
+    }
+    .title {
+      font-size: 32rpx;
+      padding: 34rpx 0;
+      border-bottom: 1rpx solid #d3d3d3;
+    }
+    .onlytitle {
+      border-bottom: 0rpx;
+      padding: 0;
+      font-weight: 600;
+      margin-bottom: -30rpx;
+    }
+    .item-content {
+      padding: 34rpx 0;
+    }
+    .name {
+      padding: 0 20rpx;
+    }
+  }
+}
+.back-body {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+.patient-main {
+  .hot-title {
+    height: 80rpx;
+    line-height: 80rpx;
+  }
+  .perinfo {
+    color: #96a0af;
+  }
+  .question-foot {
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-left: -30rpx;
+    border-top: 1rpx solid #e1e1e1;
+    .item {
+      text-align: center;
+      width: 50%;
+      color: #96a0af;
+      font-size: 24rpx;
+      border-right: 1rpx solid #e1e1e1;
+      .obit-zlbtn {
+        width: 55px;
+        margin: 0 auto;
+      }
+    }
+    .item:last-child {
+      border-right: none;
+    }
+  }
+  .hot-content {
+    color: #717582;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+.scale-main {
+  .back-body {
+    background: transparent;
+  }
+  .widthTitle {
+    width: 130rpx !important;
+  }
+  .hot-title {
+    height: 80rpx;
+    line-height: 80rpx;
+  }
+  .perinfo {
+    color: #96a0af;
+  }
+  .question-foot {
+    height: 80rpx;
+    line-height: 80rpx;
+    margin-left: -30rpx;
+    border-top: 1rpx solid #eee7e7;
+    .item {
+      text-align: center;
+      width: 33.3%;
+      color: #96a0af;
+      font-size: 24rpx;
+      border-right: 1rpx solid #eee7e7;
+      .obit-zlbtn {
+        width: 55px;
+        margin: 0 auto;
+      }
+    }
+    .item:last-child {
+      border-right: none;
+    }
+  }
+  .hot-content {
+    color: #717582;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+//  -------------------------------tabbar组件
+.swiper-box {
+  flex: 1;
+  position: relative;
+  height: auto;
+}
