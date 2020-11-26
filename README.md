@@ -21,6 +21,5 @@
 1.  npm run init
     更新 git modules
 2.  npm run update
-3.  xxxx
 
 #### 特技
