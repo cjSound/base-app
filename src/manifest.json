@@ -1,7 +1,7 @@
 {
-    "name" : "通用移动端架构",
+    "name" : "baseapp",
     "appid" : "__UNI__0AD8211",
-    "description" : "通用移动端架构",
+    "description" : "",
     "transformPx" : false,
     "icons" : [
         {
@@ -25,27 +25,10 @@
                 "speech" : {},
                 "ad" : {},
                 "push" : {
-                    "unipush" : {
-                        "appid" : "jCUhilah5SAxGRAuMD2M95",
-                        "appkey" : "RWI24eSCbcAinyasTAobd9",
-                        "appsecret" : "MB6N5ae3Oj6WHHgq3rshw5"
-                    }
                 }
             },
             "android" : {
                 "permissions" : [
-                    "<uses-feature android:name=\"android.hardware.camera\"/>",
-                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
-                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
-                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.REQUEST_INSTALL_PACKAGES\"/>",
-                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
-                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
-                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
-                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
                 ],
                 "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ]
             },
@@ -110,16 +93,9 @@
             "urlCheck" : false
         },
         "navigateToMiniProgramAppIdList" : [
-            "wx43fd75b624eb6a26",
-            "wxd0e404d795ea6f80",
-            "wxece3a9a4c82f58c9",
-            "wxad3150031786d672",
-            "wxd2ade0f25a874ee2",
-            "wx3e596d4830500318",
-            "wx7c8d593b2c3a7703"
         ],
         "usingComponents" : true,
-        "appid" : "wx6534db3904d0e58f"
+        "appid" : ""
     },
     "mp-alipay" : {
         "usingComponents" : true
@@ -134,7 +110,7 @@
         "template" : "template.h5.html",
         "router" : {
             "mode" : "history",
-            "base" : "/app/"
+            "base" : "/base/"
         },
         "optimization" : {
             "treeShaking" : {
