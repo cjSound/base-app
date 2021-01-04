@@ -2,7 +2,7 @@
  * @Author: 曹捷
  * @Date: 2019-08-21 17:23:30
  * @LastEditors: 曹捷
- * @LastEditTime: 2020-09-09 10:30:02
+ * @LastEditTime: 2021-01-04 18:55:19
  * @Description: file content
  -->
 <script>
@@ -11,17 +11,17 @@ export default {
   onLaunch: function () {
     this.initStore();
   },
-  mounted() {
+  mounted () {
     this.checkUpdateVersion();
   },
   methods: {
-    initStore() {
+    initStore () {
       let userInfo = uni.getStorageSync("userInfo");
       if (userInfo && userInfo.accessToken) {
         this.$store.commit("setLogin", userInfo);
       }
     },
-    checkUpdateVersion() {
+    checkUpdateVersion () {
       //创建 UpdateManager 实例
       const updateManager = uni.getUpdateManager();
       //检测版本更新
@@ -33,7 +33,7 @@ export default {
             uni.showModal({
               title: "更新提示",
               content: "新版本已经准备好，是否重启应用？",
-              success(res) {
+              success (res) {
                 if (res.confirm) {
                   // 新的版本已经下载好，调用 applyUpdate 应用新版本并重启
                   updateManager.applyUpdate();
@@ -53,7 +53,7 @@ export default {
       });
     },
   },
-  onShow() {
+  onShow () {
     // #ifdef APP-PLUS
     // let info = { url: '/pages/center/space/space?id=1' }
     //    plus.push.createMessage("支付宝到账：100万元", JSON.stringify(info), {
@@ -79,10 +79,12 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./app-modules/style/uni.css";
-@import "./app-modules/style/iconfont.css";
-@import "./app-modules/style/common.css";
-@import "./app-modules/style/index.scss";
+@import './app-modules/style/uni.css';
+@import './app-modules/style/iconfont.css';
+@import './app-modules/style/common.css';
+@import './app-modules/style/index.scss';
+@import 'uview-ui/index.scss';
+
 // @import url('/components/gaoyia-parse/parse.css');
 
 page {

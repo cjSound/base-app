@@ -2,10 +2,13 @@
  * @Author: 曹捷
  * @Date: 2020-08-03 17:17:12
  * @LastEditors: 曹捷
- * @LastEditTime: 2020-09-09 20:36:06
+ * @LastEditTime: 2021-01-04 18:55:40
  * @Description: file content
  */
 module.exports = {
+  easycom: {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
   globalStyle: {
     navigationBarTextStyle: "black",
     navigationBarBackgroundColor: "#fff",

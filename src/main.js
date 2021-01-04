@@ -2,13 +2,16 @@
  * @Author: 曹捷
  * @Date: 2019-08-21 17:23:30
  * @LastEditors: 曹捷
- * @LastEditTime: 2020-09-16 22:36:46
+ * @LastEditTime: 2021-01-04 18:56:27
  * @Description: file content
  */
 import Vue from 'vue'
 import App from './App'
 import getData from './config'
 import store from './store'
+// 引入  uview
+import uView from "uview-ui";
+Vue.use(uView);
 
 //全局注册 暂时不支持动态注册
 import obitInput from './app-modules/components/obit-input/obit-input.vue'
