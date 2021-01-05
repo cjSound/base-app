@@ -92,7 +92,9 @@
     "vue-template-compiler": "^2.6.11",
     "moment": "^2.29.1",
     "numeral": "^2.0.6",
-    "dayjs": "^1.10.1"
+    "dayjs": "^1.10.1",
+    "vuex-persistedstate": "^4.0.0-beta.1"
+
   },
   "browserslist": [
     "Android >= 4",
